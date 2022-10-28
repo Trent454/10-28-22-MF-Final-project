@@ -11204,18 +11204,25 @@ textarea.form-control-lg {
   }
 }
 header {
-  background-color: orange;
-  border: 2px solid black;
+  border: 4px solid black;
+  width: 100vw;
+  text-align: center;
 }
 
 nav {
-  background-color: orange;
+  width: 100vw;
+  height: 10vh;
+  display: inline;
+  border: 2px;
 }
 
-body {
-  width: 200px;
-  height: 200px;
-  background-image: url();
+ul {
+  display: inline-block;
+}
+
+li {
+  display: block;
+  text-align: center;
 }
 
 .boxformedia {
@@ -11230,11 +11237,10 @@ article {
   color: red;
 }
 
-img {
-  width: 25vw;
-  height: 25vh;
-}
-
-body {
-  background-color: yellow;
+footer {
+  background-color: grey;
+  border-color: black;
+  border: 2px;
+  border: solid;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
